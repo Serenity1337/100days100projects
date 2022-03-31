@@ -1,0 +1,37 @@
+.closeFormBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  color: teal;
+  cursor: pointer;
+}
+.createContactBtn {
+  width: 100%;
+  border: 1px solid teal;
+  background: none;
+  color: #fff;
+  margin: 0px 0px 15px 0px;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.createContactBtn:hover {
+  background-color: teal;
+}
+
+.updateContactBtn,
+.deleteContactBtn {
+  border: none;
+  background: none;
+  border: 1px solid #111;
+  margin: 0px 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.updateContactBtn:hover,
+.deleteContactBtn:hover {
+  color: #fff;
+  background-color: #111;
+  border: 1px solid #fff;
+}

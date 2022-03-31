@@ -1,0 +1,42 @@
+.contactListContainer {
+  max-width: 900px;
+  margin: 10px auto;
+  border: 1px solid #fff;
+  padding: 5px;
+  color: #fff;
+
+  .contactList {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    .contactCard {
+      list-style-type: none;
+      display: flex;
+      background-color: teal;
+      padding: 5px;
+      position: relative;
+      .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+      }
+      .textContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 0px 20px;
+        justify-self: flex-start;
+      }
+      .buttonContainer {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
