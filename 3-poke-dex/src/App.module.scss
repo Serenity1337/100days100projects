@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+form {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 0px 0px;
+  input {
+    background-color: #424242;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+  }
+  button {
+    color: #fff;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+.pokemonWrapper {
+  display: flex;
+  img {
+    flex: 1;
+  }
+  .infoWrapper {
+    flex: 1;
+    .stats {
+      .statName {
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+    .typesWrapper {
+      .types {
+        span {
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+      }
+    }
+    .moves {
+      .moveWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        span {
+          font-weight: bold;
+          text-transform: capitalize;
+        }
+      }
+    }
+
+  }
+  
+}
+
